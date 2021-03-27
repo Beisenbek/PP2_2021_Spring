@@ -8,7 +8,7 @@ screen.fill((0, 0, 255))
 done = False
 
 surface = pygame.Surface((100, 100),pygame.SRCALPHA)
-surface.fill((255,255,255))
+surface.fill((255,255,255)) 
 
 surface2 = pygame.Surface((200, 200),pygame.SRCALPHA)
 surface2.fill((255,0,0))
