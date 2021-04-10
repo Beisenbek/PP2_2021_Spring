@@ -42,6 +42,6 @@ while True:
     if currentTool == 0:
         drawLine(screen, prevPoint, curPoint)
     elif currentTool == 1:
-        drawRectangle(screen, 40,40,100,100)
+        drawRectangle(screen, curPoint[0],curPoint[1],100,100)
 
     pygame.display.flip()
