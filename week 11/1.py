@@ -92,6 +92,7 @@ def gameLoop():
         x1 += x1_change
         y1 += y1_change
 
+
         dis.fill(blue)
 
         pygame.draw.rect(dis, green, [foodx, foody, snake_block, snake_block]) 
